@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.flexContainer{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+form{}
+label{text-align: right; margin-right: 8px; vertical-align: middle;}
+input[type=text]{width: 200px; padding: 8px; margin: 7px 0; border: 1px solid #aaa; border-radius: 4px;}
+button[type=submit]:hover{background-color: #07d; cursor: pointer;}
